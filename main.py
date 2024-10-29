@@ -195,7 +195,8 @@ class AARS(App):
     
     def callback(self, instance):
         
-        
+        stripe.api_key = 'sk_test_51KuiHoJTbZoKzQ84SkzUDxOiYjYMu92VeJshz1IWepvHyDHarulAAXoudZ41qRYulSBXSYABZU6EfgnDZPQB9QU600ErEzsmtu'
+
 
         try:
             
