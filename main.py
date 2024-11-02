@@ -237,7 +237,7 @@ class AARS(App):
             d=(a.data[0].id)
             stripe.Subscription.create(
             customer=d,
-                items=[{"price": "price_1PudqTJTbZoKzQ84beTeXJfM"}],
+                items=[{"price": "price_1PugPtJTbZoKzQ84CJVuR933"}],
                 )
 
 
