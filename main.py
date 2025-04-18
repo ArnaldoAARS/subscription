@@ -1,4 +1,5 @@
 import stripe
+import requests
 from stripe.error import InvalidRequestError
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
