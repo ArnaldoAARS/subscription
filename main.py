@@ -1,4 +1,5 @@
 import stripe
+import requests
 from stripe.error import InvalidRequestError
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
@@ -194,8 +195,12 @@ class AARS(App):
     
     
     def callback(self, instance):
+
         
+        stripe.api_key = "sk_test_51KuiHoJTbZoKzQ84SkzUDxOiYjYMu92VeJshz1IWepvHyDHarulAAXoudZ41qRYulSBXSYABZU6EfgnDZPQB9QU600ErEzsmtu"
+
         stripe.api_key = 'sk_test_51KuiHoJTbZoKzQ84SkzUDxOiYjYMu92VeJshz1IWepvHyDHarulAAXoudZ41qRYulSBXSYABZU6EfgnDZPQB9QU600ErEzsmtu'
+
 
 
         try:
